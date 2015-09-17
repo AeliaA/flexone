@@ -1,0 +1,46 @@
+/* style to make each box visible*/
+.box{
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 #999;
+}
+
+.box p{
+font-size: 20px;	
+}
+/* colors for each box*/
+
+.box1 {background-color: #3498db}
+.box2 {background-color: #9b59b6}
+.box3 {background-color: #43395e}
+.box4 {background-color: #f1c40f}
+.box5 {background-color: #adff2f}
+.box6 {background-color: #00cbff}
+.box7 {background-color: #d2ba00}
+.box8 {background-color: #ffff32}
+.box9 {background-color: #b2dfee}
+.box10 {background-color: #000033}
+
+
+/*flex start here the above is just page content*/
+
+.wrapper {
+	display: flex; /*flex is a new property*/
+	-webkit-flex-direction:column;
+	-mox-flex-direction:column;
+	-ms-flex-direction:column;
+	-o-flex-direction:column;
+	flex-direction:column; /* by default flex direction is row*/
+	width:80px;
+	height: 500px;
+	border:10px solid black;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.box {
+	flex: 1;
+	min-width: 25px;
+	min-height: 100px;
+}
